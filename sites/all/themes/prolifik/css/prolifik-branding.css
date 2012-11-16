@@ -1,14 +1,11 @@
 /* @override 
-	http://hilton.loc/sites/all/themes/navin/css/prolifik-branding.css?m5bgn5
-	http://btcv.biz/sites/all/themes/prolifik/css/prolifik-branding.css?m5f2cd
-	http://shs.loc/sites/all/themes/prolifik/css/prolifik-branding.css?m67bl9
-	http://zprobase.loc/sites/all/themes/prolifik/css/prolifik-branding.css?m7rzjd
+	http://www.ccs.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-branding.css?mc6zju
 */
 
 /* Branding */
 #zone-branding-wrapper {
-
-	}
+	background: url(../images/Stainless-Background.jpg) -260px;
+}
 #zone-branding {
   position: relative;
 }
@@ -20,7 +17,6 @@
 }
 #region-branding .region-inner {
   padding: 20px;
-	background-color: white;
 }
 
 .logo-img {

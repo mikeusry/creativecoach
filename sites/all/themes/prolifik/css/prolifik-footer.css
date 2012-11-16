@@ -1,4 +1,5 @@
-/* @override http://shs.loc/sites/all/themes/prolifik/css/prolifik-footer.css?m67bl9 */
+/* @override http://shs.loc/sites/all/themes/prolifik/css/prolifik-footer.css?m67bl9
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-footer.css?mcij8s */
 
 /* Footer */
 #zone-footer-wrapper {
@@ -7,7 +8,8 @@
 	-webkit-box-shadow: #666 0px 0px 10px;
 -moz-box-shadow: #666 0px 0px 10px;
 box-shadow: #666 0px 0px 10px;
-background-color: #005094;
+background-color: #282828;
+background: url(../images/stainless-footer.jpg) -260px;
 }
 #zone-footer-wrapper a,
 #zone-footer-wrapper a:link
