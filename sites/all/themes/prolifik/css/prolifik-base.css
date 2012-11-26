@@ -1,26 +1,41 @@
 /* @override 
-	http://shs.loc/sites/all/themes/prolifik/css/prolifik-base.css?m67bl9
-	http://zprobase.loc/sites/all/themes/prolifik/css/prolifik-base.css?m7rzjd
-	http://www.ccs.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-base.css?mc6zju
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-base.css?mcij8s
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-base.css?md6ri8
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-base.css?me4707
 */
 
 /* This file will hold the main styles for your website. */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {background-color: black;}
 
 div.gotq {float: left;margin-right: 10px;font-size: x-large;
 	color: #424242;
 	margin-top: 10px;
 }
 
+#zone-prevost-wrapper {
+	background: #a4010f;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E0MDEwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2UxMDIxNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #a4010f 0%, #e10215 50%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4010f), color-stop(50%,#e10215));
+	background: -webkit-linear-gradient(top,  #a4010f 0%,#e10215 50%);
+	background: -o-linear-gradient(top,  #a4010f 0%,#e10215 50%);
+	background: -ms-linear-gradient(top,  #a4010f 0%,#e10215 50%);
+	background: linear-gradient(to bottom,  #a4010f 0%,#e10215 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4010f', endColorstr='#e10215',GradientType=0 );
+}
+
+img.prevost {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+
 #block-block-8 div.content div.phone a {
 	color: #eaeaea;
 	font-size: xx-large;
 	text-shadow: #212121 0 2px 3px;
-}
-body {
-	background-color: black;
 }
 
 
@@ -177,6 +192,30 @@ ul.quicktabs-tabs li a {
 	text-shadow: 0 -2px 3px black;
 }
 
+/* @group Webform Contact Block */
+
+#block-webform-client-block-2 div.block-title {
+background: url(../images/form-header.png) no-repeat center 0;
+overflow: visible;
+position: relative;
+z-index: 99;
+bottom: 16px;
+padding-bottom: 16px;
+padding-top: 5px;
+}
+
+#block-webform-client-block-2 div.block-title h2.block-title div.text {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	z-index: 99;
+	margin-top: 20px;
+}
+
+#block-webform-client-block-2 .form-submit {
+	background-color: red;
+}
+
 #block-webform-client-block-2 {
 	padding: 10px;
 border-radius: 10px;
@@ -185,30 +224,9 @@ border-radius: 10px;
 	-webkit-box-shadow: inset 0 1px 14px #b4b4b4;
 	box-shadow: inset 0 1px 14px #b4b4b4;
 }
-
-#webform-component-tab {
-	background: url(../images/form-header.png) no-repeat 85px;
-	position: relative;
-	height: 58px;
-	margin-top: -58px;
-}
-
-#webform-component-tab p {
-	display: none;
-}
-
-#block-webform-client-block-2 div.block-title h2.block-title div.text {
-	color: white;
-	font-size: 16px;
-	position: relative;
-	z-index: 99;
-}
-
-#wistia_obvrvjagjh {border: 3px solid #a6a6a6;}
-
-#block-webform-client-block-2 .form-submit {
-	background-color: red;
-}
+#block-webform-client-block-2 div.grippie {display: none;}
+#block-webform-client-block-2 label {color: #d3d6d2;}
+/* @end */
 
 /* @group Logo Parade */
 
@@ -216,11 +234,20 @@ border-radius: 10px;
 	background-color: white;
 	box-shadow: 2px 3px 15px #756f6f;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 10px;overflow: hidden;
+}
+#block-views-logo-parade-block {width: 1000%;margin-left: -100%;}
+
+#block-views-logo-parade-block div.views-row {display: table-cell; vertical-align: middle;
+	
 }
 
+#block-views-logo-parade-block img {float: left;margin-right: 40px;}
 
 /* @end */
+
+
+
 #block-views-testimonials-block div.block-title div.text {
 color: red;
 text-align: left;
@@ -228,8 +255,47 @@ text-shadow: 0 1px 2px #454548;
 font-family: "Open Sans";
 }
 
+#wistia_obvrvjagjh {border: 3px solid #a6a6a6;}
+
+
 #block-views-testimonials-block p{
 	color: black;
 	margin-top: 10px;
 	line-height: 19px;
 }
+
+/* @group Case Studies Page */
+
+
+
+/* @end */
+
+.page-case-studies #page #page-title {
+text-align: center;	color: red;
+font-size: 4em;
+text-shadow: 1px 1px 2px #48484b;
+}
+
+#block-system-main div.case-study-title {text-align: center;}
+#block-system-main div.case-study-title a {font-weight: lighter; color: #49494b;}
+
+#block-system-main div.case-study-image {display: table-cell; vertical-align: middle;
+	height: 300px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#block-system-main div.content div.view.view-case-studies div.grid-6 {border: thin solid silver; border-radius:15px;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 340px;
+}
+
+#block-system-main div.case-study-image img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+

@@ -1,4 +1,5 @@
-/* @override http://shs.loc/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?m67bl9 */
+/* @override http://shs.loc/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?m67bl9
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?me4707 */
 
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 
@@ -14,4 +15,8 @@
   top: 35px;
   width: 300px;
   z-index: 1;
+}
+
+#zone-prevost-wrapper {
+	min-height: 150px;
 }
