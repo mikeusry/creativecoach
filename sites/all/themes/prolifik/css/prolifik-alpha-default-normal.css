@@ -1,5 +1,6 @@
 /* @override http://shs.loc/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?m67bl9
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?me4707 */
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?me4707
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?me49qb */
 
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 
@@ -19,4 +20,17 @@
 
 #zone-prevost-wrapper {
 	min-height: 150px;
+}
+
+#block-system-main div.content div.view.view-case-studies div.grid-6 {border: thin solid silver; border-radius:15px;
+	padding: 10px;
+	margin: 0 3.5% 10px;
+	display: table-cell; vertical-align: middle;
+}
+
+#block-system-main div.case-study-image img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
 }

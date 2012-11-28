@@ -1,9 +1,19 @@
 /* @override 
 		http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-content.css?me44sk
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-content.css?me4707 */
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-content.css?me4707
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-content.css?me5wue */
 		
 		
 /* Content */
+
+.front #section-content {
+	background: url(none) black;box-shadow: none;
+}
+
+.front #zone-preface {
+
+}
+
 #section-content {
 	-moz-box-shadow: inset 0 24px 40px #424041;
 	-webkit-box-shadow: inset 0 24px 40px #424041;

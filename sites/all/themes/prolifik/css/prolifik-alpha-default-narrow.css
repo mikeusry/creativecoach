@@ -1,5 +1,5 @@
 /* @override 
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?mcij8s */
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?me49qb */
 
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 
@@ -34,4 +34,30 @@
   top: 25px;
   width: 300px;
   z-index: 1;
+}
+
+#region-menu nav.navigation ul.menu li.leaf {
+  float: left;
+  display: block;
+}
+
+#block-system-main div.case-study-image {display: table-cell; vertical-align: middle;
+	margin-right: auto;
+	margin-left: auto;
+	height: 220px;
+	width: 270px;
+}
+
+#block-system-main div.content div.view.view-case-studies div.grid-6 {border: thin solid silver; border-radius:15px;
+	padding: 10px;
+	margin: 0 3.5% 10px;
+	display: table-cell; vertical-align: middle;
+	height: 260px;
+}
+
+#block-system-main div.case-study-image img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;height: auto;
 }
