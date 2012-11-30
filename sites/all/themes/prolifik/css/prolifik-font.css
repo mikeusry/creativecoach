@@ -2,6 +2,7 @@
 	http://hilton.loc/sites/all/themes/navin/css/prolifik-font.css?m5bgn5
 	http://hilton.loc/sites/all/themes/navin/css/prolifik-font.css?m5cq9x
 	http://btcv.biz/sites/all/themes/prolifik/css/prolifik-font.css?m5f2cd
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-font.css?me918d
 */
 
 /* Body */
@@ -31,6 +32,8 @@ div.block-title h2.block-title {
 	margin-top: 10px;
 	margin-bottom: 5px;
 	text-align: center;
+	color: red;
+	text-shadow: black 1px 1px 0;
 }
 
 /* Content */

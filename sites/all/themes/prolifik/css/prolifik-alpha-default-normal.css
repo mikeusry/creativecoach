@@ -1,8 +1,3 @@
-/* @override http://shs.loc/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?m67bl9
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?me4707
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?me49qb */
-
-/* This file will hold styles that are loaded using the same media query as the normal grid. */
 
 #logo {
   width: 250px;
@@ -33,4 +28,80 @@
 	margin-right: auto;
 	margin-left: auto;
 	height: auto;
+}
+
+/* @group Menu */
+#region-menu nav > ul.menu > li {
+	width: 16%;
+}
+
+
+/* @end */
+
+
+
+/* @group Nivo */
+
+#block-nivo-slider-nivo-slider {
+
+}
+
+#slider {margin: 0;}
+
+#block-nivo-slider-nivo-slider div.content div.slider-wrapper.theme-dark {border: none;background: none;}
+
+#block-nivo-slider-nivo-slider div.content div.slider-wrapper.theme-dark div.nivo-controlNav {display: none;}
+
+#page #block-nivo-slider-nivo-slider #slider div.nivo-caption {
+	position: absolute;
+	background-color: rgba(253,252,255,0.24);
+	color: black;
+	left: 50%;
+	top:  10%;
+	width: 40%;
+	height: 60%;
+	border-radius: 40px;
+}
+
+div.nivo-title {font: 2em 'Asset', cursive;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#slider div.nivo-caption ul.nivo li {
+	font-size: 2em;
+	list-style-position: outside;
+	list-style-image: url(../images/nivo-star.png);
+}
+
+#slider div.nivo-caption div.nivo-p {margin-left: 5%;font-size: 2em;
+}
+
+div.nivo-more {display: block;float: left; padding: 7px;border-radius: 10px;
+	margin-left: 35%;
+	margin-top: 20px;
+		background: #a4010f;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E0MDEwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2UxMDIxNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #a4010f 0%, #e10215 50%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4010f), color-stop(50%,#e10215));
+	background: -webkit-linear-gradient(top,  #a4010f 0%,#e10215 50%);
+	background: -o-linear-gradient(top,  #a4010f 0%,#e10215 50%);
+	background: -ms-linear-gradient(top,  #a4010f 0%,#e10215 50%);
+	background: linear-gradient(to bottom,  #a4010f 0%,#e10215 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4010f', endColorstr='#e10215',GradientType=0 );
+}
+.theme-dark .nivo-caption a {
+	border-bottom: none;
+}
+
+/* @end */
+
+div.dm-header {
+	color: black;
+	font: 1.45em "Open Sans";
+}
+
+#directmail-fd248151-subscriber_email {
+	width: 30%;
+	margin-right: 15px;
 }

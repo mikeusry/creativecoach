@@ -1,5 +1,7 @@
 /* @override 
-	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-base.css?me5wue */
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-base.css?me9qem
+	http://www.customtourbus.com/sites/all/themes/prolifik/css/prolifik-base.css?mebfkn
+*/
 
 @import url(http://fonts.googleapis.com/css?family=Asset|Open+Sans);
 
@@ -15,13 +17,34 @@ body {background-color: black;}
 	background: -ms-linear-gradient(top,  #a4010f 0%,#e10215 50%);
 	background: linear-gradient(to bottom,  #a4010f 0%,#e10215 50%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4010f', endColorstr='#e10215',GradientType=0 );
+	min-height: 120px;
 }
+
 
 img.prevost {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 	margin-top: 20px;
+	padding-top: 10px;
+}
+
+#region-postfix-first {
+	padding-bottom: 15px;
+}
+#block-block-11 {text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.dm-header {
+	color: black;
+	font: 1.45em "Open Sans";
+}
+
+#directmail-fd248151-subscriber_email {
+	width: 70%;
+	margin-right: 15px;
 }
 
 
@@ -40,14 +63,15 @@ a:hover {
 body > #page h1, body > #page h2, body > #page h3,
 body > #page h4, body > #page h5, body > #page h6 {
   border-color: #D4D4D4;
-  color: #191F53;
-  font-weight: normal;
+  color: red;
+  font-weight: bold;
   letter-spacing: 0;
   line-height: 1em;
 }
 
 body > #page h1#page-title {
-  color: #191F53;
+  color: red;
+	text-shadow: black 1px 1px 0;
 }
 
 /* Admin Menu */
@@ -198,7 +222,7 @@ div.gotq {
 	text-shadow: 0 -2px 3px black;
 }
 
-/* @group Webform Contact Block */
+/* @group Webform Contact Block 
 
 #block-webform-client-block-2 div.block-title {
 background: url(../images/form-header.png) no-repeat center 0;
@@ -234,7 +258,21 @@ border-radius: 10px;
 #block-webform-client-block-2 label {color: #d3d6d2;}
 /* @end */
 
+
+#webform-component-contact-creative-coach-solutions {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+img.node-himage {width: 100%; height: auto;margin-bottom: 10px;
+	
+}
+
 /* @group Logo Parade */
+
+
 
 #zone-logo-wrapper {
 	background-color: white;
@@ -290,62 +328,37 @@ div.readmore a {background: #a4010f;
 
 /* @group Case Studies Page */
 
-
-
-/* @end */
-
 .page-case-studies #page #page-title {
 text-align: center;	color: red;
 font-size: 4em;
 text-shadow: 1px 1px 2px #48484b;
 }
 
-/*#block-system-main div.case-study-title {text-align: center;}
+#block-system-main div.case-study-title {text-align: center;}
 #block-system-main div.case-study-title a {font-weight: lighter; color: #49494b;}
 
-#block-system-main div.case-study-image {display: block; width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#block-system-main div.content div.view.view-case-studies div.grid-6 {border: thin solid silver; border-radius:15px;
-	padding: 10px;
-	margin: 0 3.5% 10px;
-}
 
 #block-system-main div.case-study-image img {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-}*/
-
-
-#region-menu nav.navigation ul.menu li.leaf {
-  float: left;
-  display: block;
 }
+
 
 #block-system-main div.case-study-image {display: table-cell; vertical-align: middle;
 	margin-right: auto;
 	margin-left: auto;
-	height: 220px;
-	width: 270px;
+	height: 200px;
+	width: 900px;
 }
 
 
 #block-system-main div.content div.view.view-case-studies div.grid-6 {border: thin solid silver; border-radius:15px;
 	padding: 10px;
-	margin: 0 3.5% 10px;
-	display: table-cell; vertical-align: middle;
-	height: 260px;
 }
 
-#block-system-main div.case-study-image img {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 100%;height: auto;
-}
+
+/* @end */
 
 .front #zone-postfix-wrapper {
 	padding-bottom: 30px;
@@ -355,52 +368,40 @@ text-shadow: 1px 1px 2px #48484b;
 /* @group Nivo */
 
 #block-nivo-slider-nivo-slider {
-	width: 150%;
-	margin-left: -25%;
+	width: 160%;
+	margin-left: 0;
 }
 
-#slider {margin: 0;}
 
 #block-nivo-slider-nivo-slider div.content div.slider-wrapper.theme-dark {border: none;background: none;}
 
-#block-nivo-slider-nivo-slider div.content div.slider-wrapper.theme-dark div.nivo-controlNav {display: none;}
+div.nivo-caption, #block-nivo-slider-nivo-slider div.content div.slider-wrapper.theme-dark div.nivo-controlNav, div.nivo-title, #slider div.nivo-caption ul.nivo li, div.nivo-p, div.nivo-more {display: none;}
 
-#page #block-nivo-slider-nivo-slider #slider div.nivo-caption {
-	position: absolute;
-	top: 10%;
-	left: 50%;
-	background:transparent;
-	width: 30%;
-}
-
-div.nivo-title {font: 2em 'Asset', cursive;
-	margin-bottom: 20px;
-}
-
-#slider div.nivo-caption ul.nivo li {
-	font-size: 2em;
-	list-style-position: outside;
-	list-style-image: url(../images/nivo-star.png);
-}
-
-#slider div.nivo-caption div.nivo-p {margin-left: 5%;font-size: 2em;
-}
-
-div.nivo-more {display: block;float: left; padding: 7px;border-radius: 10px;
-	margin-left: 35%;
-	margin-top: 20px;
-		background: #a4010f;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E0MDEwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2UxMDIxNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-	background: -moz-linear-gradient(top,  #a4010f 0%, #e10215 50%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4010f), color-stop(50%,#e10215));
-	background: -webkit-linear-gradient(top,  #a4010f 0%,#e10215 50%);
-	background: -o-linear-gradient(top,  #a4010f 0%,#e10215 50%);
-	background: -ms-linear-gradient(top,  #a4010f 0%,#e10215 50%);
-	background: linear-gradient(to bottom,  #a4010f 0%,#e10215 50%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4010f', endColorstr='#e10215',GradientType=0 );
-}
-.theme-dark .nivo-caption a {
-	border-bottom: none;
-}
 
 /* @end */ 
+
+
+#block-views-video-block-1 .views-field-title {
+	font-family: "Open Sans";
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.view-video.view-id-video div.views-row {width: 50%; float: left;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.view-video.view-id-video div.views-row .views-field-title a {
+	font-size: 1.5em;
+	color: #464648;
+}
+
+div.field-name-field-image a.colorbox.init-colorbox-processed.cboxElement img {
+	margin: 10px; float: left;
+}
+
+
+div.group-content {
+	clear: both;
+}
+
